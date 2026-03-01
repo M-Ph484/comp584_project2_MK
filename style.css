@@ -128,7 +128,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: space-between; /* shows off another flex property */
+  justify-content: space-between; /* another flex property for the distribution of flex items within the container */
   margin-top: 0.75rem;
 }
 
@@ -155,7 +155,7 @@ h3 {
 /* Row 6 nested flex media object */
 .media {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* our standard flex direction */
   gap: 0.75rem;
 }
 .media-body p {
@@ -190,7 +190,7 @@ h3 {
 
   /* Row 6: show media (image + text) side-by-side */
   .media {
-    flex-direction: row;
+    flex-direction: row; /*uses flex-direction: row for layout */
     align-items: flex-start;
   }
 }
@@ -216,7 +216,7 @@ h3 {
 
   /* Row 6 unique: wide + narrow using flex-grow */
   .row--sixth .col-feature {
-    flex: 1 1 44%;
+    flex: 1 1 44%; /*note that its flex-grow: 1, flex-shrink: 1, and flex-basis: 44% */
   }
   .row--sixth .col-feature.is-wide {
     flex: 2 1 44%;
@@ -418,7 +418,7 @@ h3 {
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; 
 }
 
 .hero-title {
