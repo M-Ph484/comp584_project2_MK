@@ -2,8 +2,6 @@
   ============================================================
   Project 2 Flexbox Layout Notes (Mobile-first)
   ============================================================
-
-  Core idea:
   - `.row` is the FLEX CONTAINER (display:flex).
   - Cards are FLEX ITEMS and get their width from the `col-*` classes via `flex: 0 0 <basis>`.
   - Responsive reflow (wrapping) AND item reordering (Row 5 requirement).
@@ -205,13 +203,17 @@ h3 {
   .col-2 { flex: 0 0 44%; }
 
   /* Desktop span rules */
-  .col-3 { flex: 0 0 68%; }  /* 3-column span */
+  /* Row 3 (desktop): force 1-col + 3-col side-by-side */
+  .row--third .col-1 { flex: 0 0 20%; }
+  .row--third .col-3 { flex: 0 0 68%; } /* 3-column span */
   .col-4 { flex: 0 0 92%; }  /* full width */
 
   /* Row 5 (desktop): restore left-center-right ordering */
   .row5-left   { order: 1; }
   .row5-center { order: 2; }
   .row5-right  { order: 3; }
+  /* Row 5 (desktop): force 1-col + 2-col + 1-col side-by-side */
+  .row--fifth .col-2 { flex: 0 0 44%; }
 
   /* Row 6 unique: wide + narrow using flex-grow */
   .row--sixth .col-feature {
