@@ -1,6 +1,6 @@
 /*
   ============================================================
-  Project 2 Flexbox Layout Notes (Mobile-first)
+  Project 2 Flexbox Change Notes 
   ============================================================
   - `.row` is the FLEX CONTAINER (display:flex).
   - Cards are FLEX ITEMS and get their width from the `col-*` classes via `flex: 0 0 <basis>`.
@@ -55,7 +55,7 @@ a {
   padding-bottom: 2rem;
 }
 
-/* keep images consistent inside cards */
+/* changed to keep images consistent inside cards */
 article img {
   width: 100%;
   height: auto;
@@ -89,8 +89,7 @@ h3 {
   margin: 0 0 0.5rem 0;
 }
 
-/* Column span classes:
-   Classes do 2 jobs:
+/* Column span classes do 2 jobs:
    1) visual debugging (background colors so you can see the layout)
    2) responsive width control via `flex-basis` (set in media queries)
 */
@@ -355,7 +354,7 @@ h3 {
 }
 
 /* ============================================================
-   Header hero: CSS-only "gallery banner"
+   Header hero: Gallery Banner
    - HTML defines 6 empty `.hero-tile` spans.
    - Inline style on the hero section defines `--hero-1..--hero-6` URLs.
    - CSS maps each tile to a background-image variable.
@@ -389,7 +388,7 @@ h3 {
   scroll-snap-align: start;
 }
 
-/* tiles are “gallery-like” */
+/* tiles are gallery-like */
 .hero-tile + .hero-tile {
   box-shadow: inset 6px 0 0 rgba(0,0,0,0.25);
 }
