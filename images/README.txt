@@ -1,7 +1,7 @@
 Location for images and their sources. All images:
 
 1) Protoavis: https://www.dinosaurfact.net/Pictures/Protoavis3.jpg
-2) Coelophysis: https://science-resources.co.uk/KS2/Dinosaurs/C/Coelophysis.jpg
+2) Coelophysis: https://static.wikia.nocookie.net/dinosaurs/images/b/bd/Coelophysis_feathers.png
 3) Arcticodactylus: https://www.instagram.com/p/CIqTHZ4luwd/
 4) Avicranium: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0IaQOrkrh4wv7RioI7PekLLOK6mMOeT_MLhpImlgkaSXsFStj7miEaBI5LWuArKAnBAf_V-xdasiD7wiUaTHU6vFFcrnBPSNl5MS4FVqoO4xbjNrg5y6oERjPha83DHq1GId3XK0hTYBD/s1600/Avicranium_renestoi-novataxa_2017-Pritchard_et_Nesbitt_paleoArt-%2540clepsydrops_Matt_Celeskey.jpg
 5) Archaeopteryx: https://scitechdaily.com/images/Archaeopteryx-777x424.jpg
