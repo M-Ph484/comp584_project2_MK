@@ -229,7 +229,7 @@ h3 {
    Footer: image source credits
    - A semantic footer keeps credits for images grouped 
    - `columns: 2` on desktop makes long credit lists readable without huge vertical scrolling.
-   - `word-break: break-word` prevents long URLs from overflowing the layout.
+   - `word-break: break-word` prevents long URLs from overflowing the layout. helps keep it tidy 
    ============================================================ */
 .site-footer {
   margin-top: 1.5rem;
